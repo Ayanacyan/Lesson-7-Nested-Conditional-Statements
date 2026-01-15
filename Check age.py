@@ -10,4 +10,8 @@ else:
     elif(8<=age<=20):
         print("You are a little underage for this class")
     else:
-        print("You are way younger or older than the age gap allowed")
+       if(24<=age):
+            print("You are way too overage for this class")
+        else:
+            print("You are too underage for this class")
+                       
